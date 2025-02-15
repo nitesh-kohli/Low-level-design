@@ -1,14 +1,10 @@
 package Single_Responsibilty_Principle;
 
-public class example {
-    
-}
-
-class Employee {
+class SRPViolation {
     private String name;
     private double salary;
 
-    public Employee(String name, double salary) {
+    public SRPViolation(String name, double salary) {
         this.name = name;
         this.salary = salary;
     }

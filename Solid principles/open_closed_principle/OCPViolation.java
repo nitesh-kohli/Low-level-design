@@ -1,10 +1,7 @@
 package open_closed_principle;
 
-public class example {
-    
-}
 
-class AreaCalculator {
+class OCPViolation {
     public double calculateArea(Object shape) {
         if (shape instanceof Circle) {
             Circle circle = (Circle) shape;
@@ -16,10 +13,17 @@ class AreaCalculator {
         return 0;
     }
 }
+
 class Circle {
     private double radius;
     public Circle(double radius) { this.radius = radius; }
+
     public double getRadius() { return radius; }
+    
+    public char[] calculateArea() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calculateArea'");
+    }
 }
 class Rectangle {
     private double width, height;

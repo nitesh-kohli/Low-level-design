@@ -11,7 +11,7 @@ package open_closed_principle;
 public class Main {
     public static void main(String[] args){
         Rectangle obj = new Rectangle(10,5);
-        Circle crc = new Circle(23);
+        Circle crc = new Circle(23.99);
 
         System.out.println(obj.calculateArea());
         System.out.println(crc.calculateArea());
