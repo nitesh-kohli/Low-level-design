@@ -1,4 +1,4 @@
-package open_closed_principle;
+package Open_closed_principle;
 
 //open/closed principle
 //Software entities (classes, modules, functions) should be open for extension but closed for modification.

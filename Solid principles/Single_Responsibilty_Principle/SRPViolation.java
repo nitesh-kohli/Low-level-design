@@ -1,5 +1,6 @@
 package Single_Responsibilty_Principle;
 
+@SuppressWarnings("unused")
 class SRPViolation {
     private String name;
     private double salary;

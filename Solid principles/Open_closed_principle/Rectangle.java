@@ -1,4 +1,4 @@
-package open_closed_principle;
+package Open_closed_principle;
 
 public class Rectangle implements Shape {
     private double width,height;
