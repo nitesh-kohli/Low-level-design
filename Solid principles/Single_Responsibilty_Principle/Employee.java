@@ -1,6 +1,4 @@
-package SingleResponsibiltyPrinciple;
-//Single responsibilty principle
-//a class should have only one reason to change
+package Single_Responsibilty_Principle;
 
 public class Employee{
     private String name;

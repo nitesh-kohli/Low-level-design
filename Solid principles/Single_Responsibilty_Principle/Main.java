@@ -1,4 +1,8 @@
-package SingleResponsibiltyPrinciple;
+package Single_Responsibilty_Principle;
+
+//Single responsibilty principle
+//a class should have only one reason to change
+//By following SRP, each class has a well-defined purpose, making the codebase cleaner and more scalable. 🚀
 
 public class Main {
     public static void main(String[] args) {
